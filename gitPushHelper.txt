@@ -5,7 +5,5 @@ How to push:
 4. git commit -m "letzter stand"
 5. git push
 
-My Tokens:
-
-My Admin Token:
-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
+If not logged in:
+1. gh auth login 'Token from C:\Users\Tillman\Desktop'
