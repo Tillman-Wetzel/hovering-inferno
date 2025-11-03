@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "hovering_inferno:item/no.png"
+    "layer0": "hovering_inferno:item/no"
   }
 }
