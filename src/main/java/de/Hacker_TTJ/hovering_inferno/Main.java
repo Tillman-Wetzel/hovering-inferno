@@ -1,6 +1,7 @@
 package de.Hacker_TTJ.hovering_inferno;
 
 import com.mojang.logging.LogUtils;
+import de.Hacker_TTJ.hovering_inferno.block.ModBlockInit;
 import de.Hacker_TTJ.hovering_inferno.item.ModItemInit;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -28,6 +29,7 @@ public class Main {
         modEventBus.addListener(this::commonSetup);
 
         ModItemInit.register(modEventBus);
+        ModBlockInit.register(modEventBus);
 
         MinecraftForge.EVENT_BUS.register(this);
         modEventBus.addListener(this::addCreative);

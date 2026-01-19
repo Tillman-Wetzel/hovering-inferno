@@ -24,6 +24,9 @@ public class ModItemInit {
     public static final RegistryObject<Item> infernoShield = ITEMS.register("inferno_shield",
             () -> new Item(new Item.Properties().rarity(Rarity.UNCOMMON)));
 
+    public static final RegistryObject<Item> infernoBrewingStand = ITEMS.register("inferno_brewing_stand",
+            () -> new Item(new Item.Properties().rarity(Rarity.UNCOMMON)));
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
