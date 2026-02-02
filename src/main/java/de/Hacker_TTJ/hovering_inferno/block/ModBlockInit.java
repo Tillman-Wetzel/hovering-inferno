@@ -21,6 +21,6 @@ public class ModBlockInit {
                     .strength(3.0f, 3.0f)
                     .requiresCorrectToolForDrops()
             ));
-    public static void register(IEventBus eventBus) {Blocks.register(eventBus);
+    public static void register(IEventBus eventBus) {BLOCKS.register(eventBus);
     }
 }
